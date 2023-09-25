@@ -594,6 +594,81 @@ img{
     fill: currentColor;
 }
 
+
+
+/* Footer Form */
+
+.footer-form {
+    display: flex;
+    width: 453px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-left: 80px;
+}
+
+.footer-label {
+    display: block;
+    color: var(--whitecolor);
+    font-weight: 500px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.footer-input {
+    color: var(--whitecolor);
+    width: 264px;
+    height: 40px;
+    padding:  8px 16px;
+    display: flex;
+    margin-top: 16px;
+    font-size: 14px;
+    flex-shrink: 0;
+    background: var(--navyblue);
+    border-radius: 4px;
+    border: 1px solid var(--whitecolor);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);    
+}
+
+.footer-input::placeholder {
+    color: var(--whitecolor);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 8px 24px;
+    gap: 16px;
+    margin-left: 24px;
+    border: none;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    color: var(--whitecolor);
+    background-color: var(--iriscolor);
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:hover,
+.footer-button:active {
+    background-color: var(--oceancolor);
+}
+
+.footer-svgsubscribe {
+    width: 24px;
+    height: 24px;
+}
+
 /* CSS for Portfolio */
 
 .filter {
