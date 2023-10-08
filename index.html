@@ -435,9 +435,20 @@
                     <use href="./images/icons.svg#close"></use>
                 </svg>
             </button>
+
                 <p class="form-header">Leave your contacts and will call you back</p>
                 
-                <form class="container-form lists" action="signup_form" autocomplete="on" method="">
+                <form class="container-form" name="signup_form">
+                    <label class="form-label">
+                        <span class="form-text">Name</span>
+                        <input class="form-input" type="text" name="full-name" required>
+                        <svg class="input-icon">
+                            <use href="./images/icons.svg#person"></use>
+                        </svg>
+                    </label>
+                </form>   
+
+                <!-- <form class="container-form lists" action="signup_form" autocomplete="on" method="">
                     <label class="form-label">
                             <span class="form-text">Name</span>
                             <input class="form-input" type="text" name="full_name" required>
@@ -484,7 +495,7 @@
                     <div class="form-container">
                         <button class="form-button" type="submit">Send</button>
                     </div> 
-                </form>
+                </form> -->
       </div>
     </div>
     <script src="./js/modal.js"></script>
