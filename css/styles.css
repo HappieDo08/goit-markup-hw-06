@@ -749,6 +749,12 @@ img{
 }
 
 
+.footer-form .footer-label:hover,
+.footer-form .footer-label:active {
+    outline: none;
+    border-color: var(--whitecolor);
+}
+
 /* Modal */
 
 .back-drop {
